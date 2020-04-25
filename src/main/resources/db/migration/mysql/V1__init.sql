@@ -44,7 +44,7 @@ ALTER TABLE `empresa`
 ALTER TABLE `funcionario`
   ADD PRIMARY KEY (`id`);
 --  ,
---  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`);
+--  ADD CONSTRAINT `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`);
 
 CREATE INDEX `FK4cm1kg523jlopyexjbmi6y54j`  ON `funcionario` (empresa_id);
 
